@@ -8,7 +8,7 @@
   } else {
     factory(root, root.jQuery || root.Zepto);
   }
-})(this, function(global, $) {
+})(window, function(global, $) {
 
   'use strict';
 
